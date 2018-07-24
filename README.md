@@ -23,7 +23,7 @@ I also referenced the resource on internet to get the yaw, roll, pitch informati
 
 ## opencv-dnn-fd
 Opencv also have modren DNN models for face detection. It provides much better performance (compared to the haar method). They used the Single Shot Detection (SSD) as the model and trained by caffe framework. You need to download the following two files to use it:
-- [deploy.prototxt.txt](https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/deploy.prototxt
+- [deploy.prototxt.txt](https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/deploy.prototxt)
 - [res10_300x300_ssd_iter_140000.caffemodel](https://github.com/opencv/opencv_3rdparty/blob/dnn_samples_face_detector_20170830/res10_300x300_ssd_iter_140000.caffemodel)
 
 ## openface-landmark
@@ -35,6 +35,3 @@ The [openface](https://github.com/TadasBaltrusaitis/OpenFace/wiki) is a toolkit 
 The downloaded file should be put the following path
   
   model\patch_experts
-
-
-- 
